@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会議録音・議事録生成</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>会議録音・議事録生成</h1>
+
+        <div class="controls">
+            <p id="status-message">準備完了</p>
+            <button id="record-button">録音開始</button>
+            <button id="stop-button" disabled>録音停止</button>
+        </div>
+
+        <section id="summary-display">
+            <h2>要約結果</h2>
+            <ul id="summariesList">
+                <p>要約を読み込み中...</p>
+            </ul>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
