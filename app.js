@@ -1,10 +1,10 @@
     // TODO: 議事録アップロード用のAPI GatewayエンドポイントURLをここに貼り付けてください
     // 例: 'https://xxxxxxxx.execute-api.ap-northeast-1.amazonaws.com/poc/upload'
-    const UPLOAD_API_ENDPOINT = 'https://gygfnknmgc.execute-api.ap-northeast-1.amazonaws.com/poc/upload';
+    const UPLOAD_API_ENDPOINT = 'https://xxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com/poc/upload';
 
     // TODO: 要約一覧取得用のAPI GatewayエンドポイントURLをここに貼り付けてください
     // 例: 'https://yyyyyyyy.execute-api.ap-northeast-1.amazonaws.com/poc/summaries'
-    const SUMMARIES_API_ENDPOINT = 'https://gygfnknmgc.execute-api.ap-northeast-1.amazonaws.com/poc/summaries';
+    const SUMMARIES_API_ENDPOINT = 'https://xxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com/poc/summaries';
 
     // DOM要素の取得
     // HTMLのID名に合わせて修正
